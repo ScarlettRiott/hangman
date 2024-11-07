@@ -1,0 +1,7 @@
+.HangmanDrawing img {
+  /* Set the width of the hangman image to 300 pixels */
+  width: 300px;
+  
+  /* Maintain the image's aspect ratio by adjusting height automatically */
+  height: auto;
+}

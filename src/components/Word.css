@@ -1,0 +1,21 @@
+.Word {
+  /* Add vertical spacing around the word display */
+  margin: 20px 0;
+  
+  /* Set the font size for letters in the word */
+  font-size: 2em;
+  
+  /* Add space between letters for readability */
+  letter-spacing: 10px;
+}
+
+.letter {
+  /* Display each letter inline with a fixed width */
+  display: inline-block;
+  
+  /* Set the width of each letter block */
+  width: 30px;
+  
+  /* Center-align each letter within its block */
+  text-align: center;
+}

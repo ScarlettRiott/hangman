@@ -1,0 +1,21 @@
+.Keyboard button {
+  /* Add space around each button */
+  margin: 5px;
+  
+  /* Add padding inside each button for better clickability */
+  padding: 10px;
+  
+  /* Set a standard font size for all buttons */
+  font-size: 1em;
+  
+  /* Change the cursor to a pointer when hovering over active buttons */
+  cursor: pointer;
+}
+
+.Keyboard button:disabled {
+  /* Set a light gray background color for disabled buttons */
+  background-color: #ccc;
+  
+  /* Change the cursor to indicate that the button is disabled */
+  cursor: not-allowed;
+}
